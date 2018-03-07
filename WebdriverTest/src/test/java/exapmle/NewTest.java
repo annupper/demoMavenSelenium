@@ -23,8 +23,8 @@ public class NewTest {
   public void beforeTest() {
 	  
 	//  System.setProperty("webdriver.chrome.driver","C:\\Users\\anna.zhuravleva\\Documents\\Alrquitectura\\WebDrivers\\Chrome Driver\\chromedriver.exe"); //my windows path
-	  System.setProperty("webdriver.chrome.driver","lib//chromedriver.exe"); //relative path
-	 // System.setProperty("webdriver.chrome.driver","usr\\bin\\chromedriver.exe"); //ubuntu path
+	//  System.setProperty("webdriver.chrome.driver","lib//chromedriver.exe"); //relative path
+	  System.setProperty("webdriver.chrome.driver","usr//bin//chromedriver.exe"); //ubuntu path
 	  driver = new ChromeDriver();
 	  
 		
