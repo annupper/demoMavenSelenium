@@ -21,10 +21,11 @@ public class NewTest {
   }
   @BeforeTest
   public void beforeTest() {
-	  
+	   File chromeDriver = new File("/usr/bin/chromedriver");
+    System.setProperty("webdriver.chrome.driver", chromeDriver.getAbsolutePath())
 	//  System.setProperty("webdriver.chrome.driver","C:\\Users\\anna.zhuravleva\\Documents\\Alrquitectura\\WebDrivers\\Chrome Driver\\chromedriver.exe"); //my windows path
 	//  System.setProperty("webdriver.chrome.driver","lib//chromedriver.exe"); //relative path windows
-	  System.setProperty("webdriver.chrome.driver","lib//chromedriver"); //relative path linux
+	//  System.setProperty("webdriver.chrome.driver","lib//chromedriver"); //relative path linux
 	  driver = new ChromeDriver();
 	  
 		
