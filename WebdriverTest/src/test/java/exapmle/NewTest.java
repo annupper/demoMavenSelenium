@@ -22,7 +22,7 @@ public class NewTest {
   @BeforeTest
   public void beforeTest() {
 	//  System.setProperty("webdriver.chrome.driver","C:\\Users\\anna.zhuravleva\\Documents\\Alrquitectura\\WebDrivers\\Chrome Driver\\chromedriver.exe"); //my windows path
-	 System.setProperty("webdriver.chrome.driver","chromedriver"); //relative path windows
+	 System.setProperty("webdriver.chrome.driver","..//chromedriver"); //relative path windows
 	 // System.setProperty("webdriver.chrome.driver","//tmp//jenkins//tools//chromedriver"); //path linux for jenkins chromedriver
 	  driver = new ChromeDriver();
 	  
